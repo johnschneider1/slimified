@@ -7,6 +7,13 @@ const navbar = () => {
     <HeaderDiv>
       <h1>GeT SlimiFieD</h1>
       <NavLink
+        to="/landing"
+        activeClassName="selected-navlink"
+        className={"navlink"}
+      >
+        Home
+      </NavLink>
+      <NavLink
         to="/about"
         activeClassName="selected-navlink"
         className={"navlink"}

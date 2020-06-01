@@ -1,11 +1,13 @@
 import React from "react";
 import RecipeCard from "./recipecard";
 import { AboutCards, PaddingBox } from "./recipestyles";
+import Navbar from "../navbar";
 
 const recipes = (props) => {
   const {} = props;
   return (
     <div>
+      <Navbar />
       <p>GetSlimed Recipes are copyrighted 2020 by AddySchneider.</p>
       <AboutCards>
         <PaddingBox>
