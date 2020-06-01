@@ -1,11 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Navbar from "../navbar";
 
 const Landings = () => {
   return (
     <div>
-      <h1>You come here first</h1>
-      <Link to="slimestore">SlimeStore</Link>
+      <Navbar />
+      {/* <h1>Interested in Slime come on in!!</h1>
+      <Link to="slimestore">SlimeStore</Link> */}
     </div>
   );
 };
