@@ -5,7 +5,7 @@ import { HeaderDiv } from "./navbarstyles";
 const navbar = () => {
   return (
     <HeaderDiv>
-      <h1>Addy's SlimiFieD</h1>
+      <h1>GeT SlimiFieD</h1>
       <NavLink
         to="/about"
         activeClassName="selected-navlink"
